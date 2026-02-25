@@ -1,0 +1,197 @@
+@import url("colors/colors.css");
+
+* {
+    font-family: "Adwaita Sans", "Font Awesome", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+window#waybar {
+    background-color: transparent;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 25px;
+    margin: 2px 2px;
+}
+
+#custom-arch,
+#custom-updates,
+#window{
+    padding: 0px 5px;
+    border-radius: 25px;
+    margin: 5px 5px;
+}
+
+#window{
+  color:white;
+}
+
+#custom-updates.green {
+  color: @green;  
+}
+
+#custom-updates.yellow {
+  color: @yellow;   
+}
+
+#custom-updates.red {
+  color: @red;   
+}
+
+#workspaces {
+    padding: 2px 0px;
+    margin:2px;
+    border-radius: 20px;
+}
+
+#workspaces button {
+    transition: all 0.2s ease-in-out;
+    background-color: @bg2;
+    border-radius: 15px;
+    margin: 0 3px;
+}
+
+#workspaces button:hover {
+  background: @fg;
+}
+
+#workspaces button.active {
+    min-width: 80px;
+    min-height: 30px;
+    border-radius: 20px;
+    padding: 0 5px;
+    background-color: @purple;
+    color: @bg2;
+}
+
+#workspaces button:not(.active):not(.empty) {
+    background-color: @orange;
+    color:@bg2;
+}
+
+#workspaces button.urgent {
+    background-color: #eb4d4b;
+}
+
+#clock{
+    margin:0 10px;
+}
+
+#custom-power_mode{
+    padding: 0px 15px;
+    background-color: @bg0;
+    border-radius: 25px;
+    margin: 5 5;
+}
+#battery,
+#custom-power,
+#custom-notification,
+#pulseaudio {
+    padding: 0px 15px;
+    background-color: @purple;
+    border-radius: 25px;
+    margin: 5 5;
+}
+
+#hardware {
+    background-color: @purple;
+    border-radius: 25px;
+    padding: 0px 10px;
+    margin: 5px;
+    color: @bg0;
+}
+
+
+#connection {
+    background-color: @purple;
+    border-radius: 25px;
+    padding: 0px 10px;
+    margin: 5px;
+    color: @bg0;
+}
+
+
+/* POWER MODE */
+#custom-power_mode.green{
+    color:@green;
+}
+
+#custom-power_mode.blue{
+    color:@blue;
+}
+
+#custom-power_mode.red{
+    color:@red;
+}
+
+/* #tray {
+    transition: all 0.2s ease-in-out;
+    color: @purple
+} */
+
+#custom-notification {
+    transition: all 0.2s ease-in-out;
+    color: @blue
+}
+
+
+/* POWER BUTTON */
+#custom-power {
+    transition: all 0.2s ease-in-out;
+    background-color: @red;
+    color: #000000;
+}
+
+
+/* CLOCK */
+#clock {
+    transition: all 0.2s ease-in-out;
+    color: @fg
+}
+
+
+/* BATTERY */
+#battery {
+    transition: all 0.2s ease-in-out;
+    color: @bg0;
+}
+
+#battery.charging, #battery.plugged {
+    transition: all 0.2s ease-in-out;
+    color: @bg0;
+}
+
+#battery.critical:not(.charging) {
+    transition: all 0.2s ease-in-out;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: steps(12);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* WIFI */
+#network {
+    transition: all 0.2s ease-in-out;
+    color: @bg0;
+}
+
+#network.disconnected {
+    transition: all 0.2s ease-in-out;
+    color: @grey1
+}
+
+
+/* PULSEAUDIO */
+#pulseaudio {
+    transition: all 0.2s ease-in-out;
+    color: @bg0
+}
+
+#pulseaudio.muted {
+    transition: all 0.2s ease-in-out;
+    color: @grey1
+} 

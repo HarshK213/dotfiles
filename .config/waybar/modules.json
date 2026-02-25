@@ -1,0 +1,146 @@
+{
+
+	"custom/updates":{
+		"format":"   {}",
+		"tooltip-format":"{}",
+		"escape":true,
+		"return-type":"json",
+		"exec":"~/dotfiles/.config/waybar/scripts/updates.sh",
+		"interval":60,
+		"on-click":"kitty -e ~/dotfiles/.config/waybar/scripts/installupdates.sh",
+		"tooltip":false
+	},
+
+	"hyprland/window":{
+		"format": "{class}",
+		"separate-outputs": false,
+		"max-length": 40
+	},
+
+	"wlr/taskbar": {
+		"format": "{icon}",
+		"icon-size": 20,
+		"tooltip-format": "{title}",
+		"on-click": "activate",
+		"on-click-middle": "close",
+		"ignore-list": ["kitty"],
+		"app_ids-mapping": {
+			"firefoxdeveloperedition": "firefox-developer-edition"
+		}
+	},
+
+	"hyprland/workspaces": {
+		"format": "{name}",
+		"persistent-workspaces":{
+			"*":5
+		}
+	},
+
+	"clock#time": {
+		"interval": 60,
+		"format": "   {:%I:%M %p}",
+		"max-length": 25
+	},
+
+	"clock#date": {
+		"format": "  {:%d %b %y}",
+		"tooltip": false
+	},
+
+	"custom/notification": {
+		"tooltip": true,
+		"format": "{icon}",
+		"format-icons": {
+		"notification": "",
+		"none": "",
+		"dnd-notification": "",
+		"dnd-none": "",
+		"inhibited-notification": "",
+		"inhibited-none": "",
+		"dnd-inhibited-notification": "",
+		"dnd-inhibited-none": ""
+		},
+		"return-type": "json",
+		"exec-if": "which swaync-client",
+		"exec": "swaync-client -swb",
+		"on-click": "swaync-client -t -sw",
+		"on-click-right": "swaync-client -d -sw",
+		"escape": true
+	},
+
+	"custom/power_mode":{
+	    "exec": "~/.config/waybar/scripts/power.sh",
+		"on-click": "~/.config/waybar/scripts/power.sh toggle",
+		"interval": 5,
+		"return-type": "json"
+	},
+
+	"pulseaudio": {
+		"format": "{icon}  {volume}%",
+		"format-bluetooth": "{volume}% {icon}",
+		"format-bluetooth-muted": " {icon}",
+		"format-muted": "",
+		"format-source": "{volume}% ",
+		"format-source-muted": "",
+		"format-icons": {
+			"headphone": "",
+			"hands-free": "",
+			"headset": "",
+			"phone": "",
+			"portable": "",
+			"car": "",
+			"default": ["", "", ""]
+		},
+		"on-click": "pavucontrol"
+	},
+
+	"cpu": {
+		"format": "  {usage}%  ",
+		"tooltip": true,
+		"interval": 5
+	},
+
+	"memory":{
+		"format": "  {percentage}%",
+		"tooltip": true,
+		"interval": 5
+	},
+
+	"bluetooth": {
+		"format": " ",
+		"format-connected": "",
+		"format-disabled": "",
+		"tooltip": true,
+		"tooltip-format": "{status}\n{device_alias}",
+		"on-click": "wifi-manager --toggle",
+		"on-click-right" : "blueman-manager"
+	},
+
+	"network":{
+		"format-wifi": "   ",
+		"format-ethernet": "󰈀  ",
+		"format-disconnected": "󰤮  ",
+		"format-disabled":"󰤮  ",
+		"tooltip": true,
+		"tooltip-format": "{essid}",
+		"on-click": "wifi-manager --toggle",
+		"on-click-right":"nmgui"
+	},
+
+	"battery": {
+		"states": {
+			"warning": 30,
+			"critical": 15
+		},
+		"format": "{icon}  {capacity}%",
+		"format-full": "{icon}  {capacity}%",
+		"format-charging": "  {capacity}%",
+		"format-plugged": "  {capacity}%",
+		"format-alt": "{time} {icon}",
+		"format-icons": ["", "", "", "", ""]
+	}
+
+}
+
+
+

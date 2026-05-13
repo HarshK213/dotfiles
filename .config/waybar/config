@@ -10,7 +10,7 @@
 
     "modules-left": [
         "custom/updates",
-        "wlr/taskbar",
+        // "wlr/taskbar",
         "hyprland/window"
     ],
     "modules-center": [

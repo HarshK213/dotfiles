@@ -1,0 +1,3 @@
+"recorder": {
+  "command": "gpu-screen-recorder -w eDP-1 -f 60 -o %f -fallback-cpu-encoding yes"
+}

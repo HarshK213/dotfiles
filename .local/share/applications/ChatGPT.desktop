@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=ChatGPT
+GenericName=ChatGPT
+Exec=brave --password-store=basic --app=https://chatgpt.com
+Icon=/home/akio/.local/share/applications/icons/ChatGPT.png
+StartupWMClass=ChatGPT
+Terminal=false
+Type=Application
+Categories=Network;AI;

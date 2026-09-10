@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Neo Browser
+Exec=/home/akio/Applications/Neo-Browser-2.0.7.AppImage
+Icon=web-browser
+Terminal=false
+Categories=Network;WebBrowser;

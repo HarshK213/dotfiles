@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Whatsapp
+GenericName=Whatsapp
+Exec=brave --password-store=basic --app=https://web.whatsapp.com
+Icon=whatsapp
+StartupWMClass=Whatsapp
+Terminal=false
+Type=Application
+Categories=Network;Communication;

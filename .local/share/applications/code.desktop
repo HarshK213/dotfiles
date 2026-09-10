@@ -1,0 +1,19 @@
+[Desktop Entry]
+Name=Visual Studio Code
+GenericName=Text Editor
+Comment=Code Editing. Redefined.
+Exec=/home/akio/Applications/VSCode-linux-x64/bin/code %F
+Icon=vscode
+Terminal=false
+Type=Application
+StartupNotify=false
+StartupWMClass=Code
+Categories=Development;TextEditor;IDE;
+Keywords=vscode;code;editor;
+MimeType=text/plain;inode/directory;
+Actions=new-window;
+
+[Desktop Action new-window]
+Name=New Window
+Exec=/home/akio/Applications/VSCode-linux-x64/bin/code --new-window
+Icon=vscode

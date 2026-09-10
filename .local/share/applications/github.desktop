@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=GitHub
+Exec=brave --password-store=basic --app=https://www.github.com/HarshK213?tab=repositories
+Icon=Github
+Categories=Network;WebBrowser;
+StartupWMClass=github.com

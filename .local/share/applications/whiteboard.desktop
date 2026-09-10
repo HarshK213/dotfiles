@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=WhiteBoard
+GenericName=WhiteBoard
+Exec=brave --password-store=basic --app=https://excalidraw.com/
+Icon=/home/akio/.local/share/applications/icons/excalidraw.png
+StartupWMClass=WhiteBoard
+Terminal=false
+Type=Application
+Categories=note;

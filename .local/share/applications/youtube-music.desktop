@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=YouTube Music
+Exec=brave --password-store=basic --app=https://music.youtube.com
+Icon=music
+Categories=Browser;Music;
+StartupWMClass=youtube_music
+

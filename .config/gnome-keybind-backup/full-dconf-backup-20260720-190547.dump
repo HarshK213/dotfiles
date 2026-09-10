@@ -1,0 +1,175 @@
+[org/blueman/general]
+services-last-item=1
+window-properties=[1900, 1030, 0, 0]
+
+[org/blueman/network]
+nap-enable=false
+
+[org/blueman/plugins/autoconnect]
+services=[('98:47:44:22:35:DA', '00001101-0000-1000-8000-00805f9b34fb'), ('98:47:44:22:35:DA', '00000000-0000-0000-0000-000000000000')]
+
+[org/blueman/plugins/recentconns]
+recent-connections=[{'adapter': '3C:E9:F7:CF:30:B3', 'address': '98:47:44:22:35:DA', 'alias': 'realme Buds Wireless 3', 'icon': 'audio-headset', 'name': 'Audio and input profiles', 'uuid': '00000000-0000-0000-0000-000000000000', 'time': '1784553689.0279977', 'device': '/org/bluez/hci0/dev_98_47_44_22_35_DA'}, {'adapter': '3C:E9:F7:CF:30:B3', 'address': '98:47:44:22:35:DA', 'alias': 'realme Buds Wireless 3', 'icon': 'audio-headset', 'name': 'Serial Port', 'uuid': '00001101-0000-1000-8000-00805f9b34fb', 'time': '1784553864.2220159', 'device': '/org/bluez/hci0/dev_98_47_44_22_35_DA'}]
+
+[org/gnome/calendar]
+active-view='month'
+window-maximized=true
+window-size=(768, 600)
+
+[org/gnome/control-center]
+last-panel='bluetooth'
+window-state=(980, 640, false)
+
+[org/gnome/desktop/app-folders]
+folder-children=['System', 'Utilities', 'YaST', 'Pardus']
+
+[org/gnome/desktop/app-folders/folders/Pardus]
+categories=['X-Pardus-Apps']
+name='X-Pardus-Apps.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/System]
+apps=['nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Logs.desktop', 'org.freedesktop.MalcontentControl.desktop', 'org.gnome.SystemMonitor.desktop']
+name='X-GNOME-Shell-System.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['org.gnome.Decibels.desktop', 'org.gnome.Connections.desktop', 'org.gnome.Papers.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.font-viewer.desktop', 'org.gnome.Loupe.desktop']
+name='X-GNOME-Shell-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/input-sources]
+sources=[('xkb', 'us')]
+xkb-options=['terminate:ctrl_alt_bksp']
+
+[org/gnome/desktop/interface]
+color-scheme='prefer-dark'
+cursor-size=24
+cursor-theme='default'
+gtk-theme='adw-gtk3-dark'
+icon-theme='Papirus-Dark'
+toolkit-accessibility=false
+
+[org/gnome/desktop/notifications]
+application-children=['org-gnome-software']
+
+[org/gnome/desktop/notifications/application/org-gnome-software]
+application-id='org.gnome.Software.desktop'
+
+[org/gnome/epiphany/state]
+is-maximized=false
+window-size=(1024, 768)
+
+[org/gnome/evince/default]
+continuous=true
+dual-page=false
+dual-page-odd-left=true
+enable-spellchecking=true
+fullscreen=false
+inverted-colors=false
+show-sidebar=false
+sidebar-page='thumbnails'
+sidebar-size=132
+sizing-mode='free'
+window-ratio=(1.595898373191595, 1.2234377412726127)
+zoom=0.74198767059829651
+
+[org/gnome/file-roller/dialogs/extract]
+height=800
+recreate-folders=true
+skip-newer=false
+width=1000
+
+[org/gnome/file-roller/file-selector]
+show-hidden=false
+sidebar-size=300
+sort-method='name'
+sort-type='ascending'
+window-size=(-1, -1)
+
+[org/gnome/file-roller/listing]
+list-mode='as-folder'
+name-column-width=371
+show-path=false
+sort-method='name'
+sort-type='ascending'
+
+[org/gnome/file-roller/ui]
+sidebar-width=200
+window-height=480
+window-width=600
+
+[org/gnome/nautilus/icon-view]
+default-zoom-level='small-plus'
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+migrated-gtk-settings=true
+
+[org/gnome/nautilus/window-state]
+initial-size=(890, 550)
+maximized=true
+
+[org/gnome/nm-applet]
+disable-connected-notifications=true
+disable-disconnected-notifications=true
+suppress-wireless-networks-available=true
+
+[org/gnome/nm-applet/eap/21e7730c-3cc4-44b1-b5d3-e0ce57860b89]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/2c4e4e94-9381-46ee-aa97-29a38989ae19]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/c1db019d-34c2-4506-8d69-dfa6e9b45144]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-schedule-automatic=false
+
+[org/gnome/shell]
+app-picker-layout=[{'org.gnome.Contacts.desktop': <{'position': <0>}>, 'org.gnome.Weather.desktop': <{'position': <1>}>, 'org.gnome.clocks.desktop': <{'position': <2>}>, 'org.gnome.Maps.desktop': <{'position': <3>}>, 'org.gnome.Music.desktop': <{'position': <4>}>, 'bssh.desktop': <{'position': <5>}>, 'org.gnome.SimpleScan.desktop': <{'position': <6>}>, 'org.gnome.Settings.desktop': <{'position': <7>}>, 'org.gnome.Showtime.desktop': <{'position': <8>}>, 'org.gnome.Snapshot.desktop': <{'position': <9>}>, 'bvnc.desktop': <{'position': <10>}>, 'org.gnome.Characters.desktop': <{'position': <11>}>, 'Utilities': <{'position': <12>}>, 'System': <{'position': <13>}>, 'org.gnome.Console.desktop': <{'position': <14>}>, 'org.gnome.Tour.desktop': <{'position': <15>}>, 'org.gnome.Yelp.desktop': <{'position': <16>}>, 'avahi-discover.desktop': <{'position': <17>}>, 'blueman-manager.desktop': <{'position': <18>}>, 'brave-browser.desktop': <{'position': <19>}>, 'btop.desktop': <{'position': <20>}>, 'thunar-bulk-rename.desktop': <{'position': <21>}>, 'ChatGPT.desktop': <{'position': <22>}>, 'cmake-gui.desktop': <{'position': <23>}>}, {'wl-color-picker.desktop': <{'position': <0>}>, 'org.gnome.Evince.desktop': <{'position': <1>}>, 'org.gnome.Extensions.desktop': <{'position': <2>}>, 'figma-linux.desktop': <{'position': <3>}>, 'firefox.desktop': <{'position': <4>}>, 'github.desktop': <{'position': <5>}>, 'lstopo.desktop': <{'position': <6>}>, 'kitty.desktop': <{'position': <7>}>, 'kvantummanager.desktop': <{'position': <8>}>, 'libreoffice-startcenter.desktop': <{'position': <9>}>, 'libreoffice-base.desktop': <{'position': <10>}>, 'libreoffice-calc.desktop': <{'position': <11>}>, 'libreoffice-draw.desktop': <{'position': <12>}>, 'libreoffice-impress.desktop': <{'position': <13>}>, 'libreoffice-math.desktop': <{'position': <14>}>, 'libreoffice-writer.desktop': <{'position': <15>}>, 'com.mongodb.Compass.desktop': <{'position': <16>}>, 'mpv.desktop': <{'position': <17>}>, 'notion.desktop': <{'position': <18>}>, 'notion-calendar-electron.desktop': <{'position': <19>}>, 'nvidia-settings.desktop': <{'position': <20>}>, 'com.obsproject.Studio.desktop': <{'position': <21>}>, 'obsidian.desktop': <{'position': <22>}>, 'org.kde.okular.desktop': <{'position': <23>}>}, {'jconsole-java-openjdk.desktop': <{'position': <0>}>, 'jshell-java-openjdk.desktop': <{'position': <1>}>, 'opera.desktop': <{'position': <2>}>, 'postman.desktop': <{'position': <3>}>, 'qv4l2.desktop': <{'position': <4>}>, 'qvidcap.desktop': <{'position': <5>}>, 'qt5ct.desktop': <{'position': <6>}>, 'qt6ct.desktop': <{'position': <7>}>, 'rofi.desktop': <{'position': <8>}>, 'rofi-theme-selector.desktop': <{'position': <9>}>, 'org.telegram.desktop.desktop': <{'position': <10>}>, 'thunar.desktop': <{'position': <11>}>, 'thunar-settings.desktop': <{'position': <12>}>, 'uuctl.desktop': <{'position': <13>}>, 'vim.desktop': <{'position': <14>}>, 'code.desktop': <{'position': <15>}>, 'org.pulseaudio.pavucontrol.desktop': <{'position': <16>}>, 'waypaper.desktop': <{'position': <17>}>, 'Whatsapp.desktop': <{'position': <18>}>, 'whiteboard.desktop': <{'position': <19>}>, 'xgps.desktop': <{'position': <20>}>, 'xgpsspeed.desktop': <{'position': <21>}>, 'yazi.desktop': <{'position': <22>}>, 'youtube.desktop': <{'position': <23>}>}, {'youtube-music.desktop': <{'position': <0>}>, 'dev.zed.Zed.desktop': <{'position': <1>}>, 'zen.desktop': <{'position': <2>}>, 'org.gnome.Calculator.desktop': <{'position': <3>}>, 'org.gnome.TextEditor.desktop': <{'position': <4>}>, 'org.gnome.Software.desktop': <{'position': <5>}>, 'org.gnome.Nautilus.desktop': <{'position': <6>}>, 'org.gnome.Calendar.desktop': <{'position': <7>}>, 'org.gnome.Epiphany.desktop': <{'position': <8>}>}]
+favorite-apps=@as []
+welcome-dialog-last-shown-version='50.3'
+
+[org/gnome/shell/world-clocks]
+locations=@av []
+
+[org/gnome/software]
+first-run=false
+
+[org/gtk/gtk4/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+sidebar-width=140
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+view-type='list'
+
+[org/gtk/settings/color-chooser]
+selected-color=(true, 1.0, 1.0, 1.0, 1.0)
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=true
+show-size-column=true
+show-type-column=true
+sidebar-width=167
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-position=(0, 0)
+window-size=(950, 983)

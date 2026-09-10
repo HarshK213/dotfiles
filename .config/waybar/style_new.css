@@ -1,0 +1,225 @@
+@import 'mocha.css';
+
+* {
+  background-color: @crust;
+  color: @text;
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+  font-family: Iosevka Nerd Font;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+
+.modules-left {}
+
+.modules-right {}
+
+#workspaces {
+  border-radius: 0px;
+  /* background: @blue; */
+  margin-right: 10px;
+}
+
+#workspaces button {
+  /* background: @blue; */
+  all: initial;
+  padding: 0 8px;
+  margin: 0 2px;
+}
+
+#workspaces button label {
+  /* background: @blue; */
+  color: @text;
+  /* font-size: 10; */
+}
+
+#workspaces button.active label {
+  color: @text;
+  border-bottom: 2px solid white;
+  padding: 0 5px;
+  /* adds horizontal space → longer border */
+}
+
+#workspaces button.empty {
+  /* background: @blue; */
+  /* opacity: 0.2; */
+}
+
+#tray {
+  min-width: 0px;
+  transition: min-width 0.2s ease, opacity 0.2s ease;
+  opacity: 0;
+}
+
+#tray:hover {
+  min-width: 150px;
+  opacity: 1;
+}
+
+#tray,
+#cpu,
+#network,
+#pulseaudio {
+  min-width: 12px;
+  margin: 0 7.5px;
+}
+
+
+#clock {
+  /* color: @crust; */
+  /* background: @maroon; */
+  padding: 0 10px;
+}
+
+#custom-arch {
+  min-width: 20px;
+  margin: 0px 10px 0px 6px;
+  font-size: 18px;
+  color: @blue;
+}
+
+#custom-expand-icon {
+  margin-right: 7px;
+}
+
+tooltip {
+  font-family: Ubuntu Mono Nerd Font;
+  padding: 2px;
+}
+
+
+.hidden {
+  opacity: 0;
+}
+
+
+
+#custom-seperator {
+  color: @surface2;
+}
+
+#cpu {
+  color: @text;
+  margin-right: 10px;
+}
+
+#custom-transparency {
+  font-size: 15px;
+  margin-right: 8;
+  margin-left: 8;
+  color: @green;
+}
+
+#custom-wallpaper {
+  font-size: 15px;
+  margin-right: 10px;
+  margin-left: 8px;
+  color: @blue;
+}
+
+
+#custom-gh {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 8px;
+}
+
+#memory {
+  color: @text;
+  margin-right: 10px;
+}
+
+
+#temperature.gpu {
+  color: @text;
+  margin-left: 6px;
+}
+
+#backlight {
+  color: @lavender;
+  margin-right: 10px;
+}
+
+#wireplumber {
+  color: @lavender;
+}
+
+#network {
+  color: @lavender;
+  margin-right: 10px;
+}
+
+#network.speed {
+  color: @text;
+}
+
+#battery {
+  padding: 0 8px;
+  margin-left: 2px;
+}
+
+#custom-power-profile {
+  padding: 0 8px;
+  margin-left: 2px;
+  border-radius: 6px;
+  font-weight: 700;
+}
+
+#custom-power-profile.powersaver {
+  background: #a6e3a1;
+  color: @mantle;
+}
+
+#custom-power-profile.medium {
+  background: #89b4fa;
+  color: @mantle;
+}
+
+#custom-power-profile.performance {
+  background: #f38ba8;
+  color: @mantle;
+}
+
+#battery.charging {
+  color: @mantle;
+  background: #a6e3a1;
+}
+
+#battery.good:not(.charging) {
+  background: #74c7ec;
+  color: @mantle;
+}
+
+#battery.warning:not(.charging) {
+  background: #74c7ec;
+  color: @mantle;
+}
+
+#battery.low:not(.charging) {
+  background: #f38ba8;
+  /* Text */
+  color: @mantle;
+}
+
+#battery.critical:not(.charging) {
+  background: #f38ba8;
+  /* Text */
+  color: @mantle;
+  animation-name: blink;
+  animation-duration: 0.75s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  border-radius: 6px;
+}
+
+@keyframes blink {
+  to {
+    color: #f38ba8;
+    /* Red */
+    background: #f2cdcd;
+    /* Text */
+  }
+}

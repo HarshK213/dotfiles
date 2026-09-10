@@ -3,7 +3,7 @@ if status is-interactive
 	set -g fish_greeting ""
 	#	fastfetch
 	starship init fish | source
-	alias ff="fastfetch -c ~/.config/fastfetch/logo.jsonc  ;  fastfetch -c ~/.config/fastfetch/config.jsonc"
+	alias ff="fastfetch -c ~/.config/fastfetch/config.jsonc"
 	alias zed="zeditor"
 
 	set -Ux PYENV_ROOT $HOME/.pyenv
